@@ -2,10 +2,11 @@ Unreal Engine 5.3+ Object-Aligned Master Material
 
 To use this asset, simply drag and drop the "ObjectAligned_MM" Folder directly into the "Content" folder of your project. Try to avoid changing the file structure within the folder.
 
-
-This folder contains a Master Material which performs Tri-Planar mapping which is anchored to the object's coordinates and orientation rather than world coordinates.
-This means the texture mapping will stick to the object rather than slide around as it would with traditional tri-planar mapping.
-  - It is similar to Blender's "Object Mapping" method with the object coordinates plugged into a Box-projected texture.
+SUMMARY:
+  This folder contains a Master Material which performs Tri-Planar mapping which is anchored to the object's coordinates and orientation rather than world coordinates.
+  This means the texture mapping will stick to the object rather than slide around as it would with traditional tri-planar mapping.
+    - It is similar to Blender's "Object Mapping" method with the object coordinates plugged into a Box-projected texture.
+  This material supports Albedo/Color, Metallic, Specular, Roughness, Normal, and Emission textures.
 
 There are also useful material functions provided in the "MaterialFunctions" folder which are used in the Master Material and within each other.
   - MF_3DMappedTexture: Takes 3D coordinates, a Texture Object, Location Offset, and Rotation Offset to box-project a 2D Texture onto the 3D coordinates.
