@@ -2,6 +2,7 @@ Unreal Engine 5.3+ Object-Aligned Master Material
 
 To use this asset, simply drag and drop the "ObjectAligned_MM" Folder directly into the "Content" folder of your project. Try to avoid changing the file structure within the folder.
 
+
 This folder contains a Master Material which performs Tri-Planar mapping which is anchored to the object's coordinates and orientation rather than world coordinates.
 This means the texture mapping will stick to the object rather than slide around as it would with traditional tri-planar mapping.
   - It is similar to Blender's "Object Mapping" method with the object coordinates plugged into a Box-projected texture.
@@ -25,6 +26,7 @@ The Master Material has many controls designed to minimize or eliminate the need
   - Specular texture/solid toggle, brightness, contrast
   - Normal map toggle and strength adjustment
   - Emission toggle, brightness, contrast, saturation, and tint
+
 
 This Master Material folder also has a default Material Instance called 'MI_OADefault', as well as default textures to test it out. It is ready-to-use with any texture set or settings.
 If you enable a "USE _____ TEXTURE" and haven't chosen a texture for that channel in the '0_TEXTURES' group (displays 'None'), then the material won't render correctly.
